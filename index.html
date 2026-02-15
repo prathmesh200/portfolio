@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prathmesh Jagtap | .NET Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header class="header">
@@ -21,190 +20,197 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            
         </nav>
     </header>
 
-    <!-- home section design -->
+    <!-- HOME -->
     <section class="home" id="home">
         <div class="home-content">
-            <h3>Hello, It's Me</h3>
+            <h3>Hello, I'm</h3>
             <h1>Prathmesh Jagtap</h1>
-            <h3>And I'm a <span>Computer Science Engineer</span></h3>
-            <p>I'm currently pursuing my Bachelor's from N. K. Orchid College, Solapur.<br> Looking forward to work in a organization where I can utilize my skills for organization growth.</p>
+            <h3>.NET <span>Full Stack Developer</span></h3>
+            <img src="image/prathmesh.jpg" alt="Prathmesh" style="width:150px;border-radius:50%;margin-bottom:20px;">
+
+
+            <p>
+                Azure Certified .NET Developer with 1.6+ years of experience building scalable enterprise applications using ASP.NET Core, Blazor, Angular, and Azure.
+                Specialized in Clean Architecture, CQRS, Microservices, and Cloud-native development.
+            </p>
 
             <div class="social-media">
-                <a href="https://www.facebook.com/prathamesh.jagtap.988?mibextid=ZbWKwL" target="_blank">
-                    <i class='bx bxl-facebook'></i></a>
-                <a href="https://instagram.com/prathmesh_jagtap_20?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
-                    <i class='bx bxl-instagram-alt'></i></a>
                 <a href="https://www.linkedin.com/in/prathmesh-jagtap-aa01a0241/" target="_blank">
-                    <i class='bx bxl-linkedin'></i></a>
-                    <a href="https://gist.github.com/prathmesh200" target="_blank">
-                        <i class='bx bxl-github'></i></a>
-                        
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/prathmesh200" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
             </div>
-            <a href="./image/Prathmesh_TY_CSE_B-21 (3).pdf" download class="btn"> Download Resume
-                <i class ="pdfdownload"></i>
-            </a> 
-        </div>
 
-        <div class="home-img">
-            <img src="image/pj.jpg" class="profile-image" alt="">
+            <a href="image/PRATHMESH_RESUME.pdf" class="btn" download>Download Resume</a>
         </div>
     </section>
 
-    <!-- about section -->
-
+    <!-- ABOUT -->
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="image/pj.jpg"alt="">
-        </div>
-
-        <div class="abount-content">
+        <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3 class="about-soft"> Software Developer</h3>
-            <p class="about-paragraph"> I am an Honest and Quick Learner Person and Very Passionate About My Work.
-                 currently l'm learning Everything 💻.
-                 I know the programming languages like C, Java, Python and basic knowledge about web development.
-                 My Strengths are I'm active learner, Time manager and consistent
-                 and My hobbies are Playing Chess, Solving Puzzles and Photography.
-                 l'm always looking for opportunities</p>
+
+            <p>
+                I am currently working at Yash Technologies contributing to enterprise-level applications
+                for UK clients using Blazor, ASP.NET Core Web API, and Azure services.
+                <br><br>
+                My expertise includes Clean Architecture, CQRS with MediatR, Entity Framework Core,
+                JWT Authentication,Azure Logic Apps, Azure Functions, and Angular frontend integration.
+                <br><br>
+                I focus on writing scalable, maintainable, and production-ready code.
+            </p>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+        <h2 class="heading">Professional <span>Experience</span></h2>
+
+        <div class="experience-timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Yash Technologies – Trainee Programmer</h3>
+                    <span>August 2024 – Present | Pune, Maharashtra</span>
+
+                    <ul>
+                        <li>Working on UK-based enterprise microservices architecture.</li>
+                        <li>Implemented CQRS pattern with Clean Architecture using MediatR.</li>
+                        <li>Developed REST APIs with ASP.NET Core and EF Core.</li>
+                        <li>Designed JWT authentication and Role-Based Access Control.</li>
+                        <li>Built Azure Functions for background processing.</li>
+                        <li>Integrated Azure Logic Apps for workflow automation.</li>
+                        <li>Developed Angular frontend with API integration.</li>
+                        <li>Improved code reliability using XUnit testing and SonarQube.</li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
     </section>
 
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Technical <span>Skills</span></h2>
 
+        <div class="skills-container">
 
-    <!-- project section -->
+            <p><strong>Languages:</strong> C#, SQL, JavaScript</p>
 
+            <p><strong>Frameworks:</strong> ASP.NET Core, MVC, Web API, Blazor, Angular</p>
 
+            <p><strong>API & Query:</strong> REST APIs, GraphQL</p>
+
+            <p><strong>Architecture:</strong> Clean Architecture, CQRS, Microservices</p>
+
+            <p><strong>Cloud:</strong> Azure Functions, Azure Logic Apps</p>
+
+            <p><strong>Databases:</strong> SQL Server, Cosmos DB</p>
+
+            <p><strong>DevOps & Containers:</strong> Docker, Git</p>
+
+            <p><strong>Microsoft Platform:</strong> Power Apps, SharePoint</p>
+
+            <p><strong>Testing & Quality:</strong> XUnit, SonarQube</p>
+
+            <p><strong>Tools:</strong> Postman, Visual Studio</p>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="certifications" id="certifications">
+        <h2 class="heading">Certifications</h2>
+
+        <div class="cert-container">
+            <div class="cert-box">
+                <img src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Azure Badge">
+                <h3>Microsoft Certified</h3>
+                <p>Azure Developer Associate (AZ-204)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
     <section class="projects" id="projects">
-        <h2 class="heading">Latest <span>Projects</span></h2><br><br>
+        <h2 class="heading">Professional <span>Projects</span></h2>
+
         <div class="projects-container">
+
             <div class="projects-box">
-                <img src="image/android.jpg" alt="">
                 <div class="projects-layer">
-                    <h1 class="farshop-headling">Farmshop  </h1><br>
+                    <h3>Enterprise Hub Portal Modernization </h3>
                     <p>
-                        The main aim of this application is to give direct contact between the farmer and the dealer. 
-                        </p>
-                    <a href="https://github.com/prathmesh200/Farmshop" target="_blank">
-                        <i class ='bx bx-link-external'></i></a>
-                </div>
+                        	Developed core Finance and Operations Sub Portals using Blazor WebAssembly and .NET Web API.
+                    	Delivered the complete project from baseline to production deployment with clean, scalable architecture.
+                        Worked as part of the core development team in an Agile Scrum environment.
+                        Handled change requests and supported the post-release hypercare
+                        	Took ownership of deployments and tracked delivery progress across all release stages.
 
+                    </p>
+                </div>
             </div>
 
             <div class="projects-box">
-                <img src="image/android.jpg" alt="">
                 <div class="projects-layer">
-                    <h1 class="healthcare-headling">HealthCare</h1><br>
-                    <p>It is an android application which is used to buy medicine, Lab testing and for Dr. appointment. 
-                        </p>
-                    <a href="https://github.com/prathmesh200/healthcare_app" target="_blank">
-                        <i class ='bx bx-link-external'></i></a>
-                </div>
-
-            </div>
-
-            <div class="projects-box">
-                <img src="image/android.jpg" alt="">
-                <div class="projects-layer">
-                    <h1 class="food-headling">Leftover Food App</h1><br>
+                    <h3>Learning Management System</h3>
                     <p>
-                        This food delivery application that will reduce the food loss and also helps to feed the needy ones delivered by NGOS.</p>
-                    <a href="https://github.com/prathmesh200/left_over_food" target="_blank">
-                        <i class ='bx bx-link-external'></i></a>
+                        Built with .NET Core MVC featuring educator & student dashboards,
+                        role-based access, and optimized database queries.
+                    </p>
                 </div>
-
             </div>
 
             <div class="projects-box">
-                <img src="image/android.jpg" alt="">
                 <div class="projects-layer">
-                    <h1 class="calculator-headling">Scientific calculator</h1><br>
-                    <p>It is an android application which is used for hard calculation in fast manner.</p>
-                    <a href="https://github.com/prathmesh200/scientific-calculator" target="_blank">
-                        <i class ='bx bx-link-external'></i></a>
+                    <h3>Enterprise Microservices System</h3>
+                    <p>
+                        Blazor-based enterprise application using Clean Architecture,
+                        CQRS pattern, and Azure cloud services.
+                    </p>
                 </div>
-
             </div>
-
-            <div class="projects-box">
-                <img src="image/Blackjack.jpg" alt="">
-                <div class="projects-layer">
-                    <h1 class="blackjack-headling">Black Jack</h1><br>
-                    <p>It is a small game for the fun purpose</p>
-                    <a href="https://github.com/prathmesh200/Black_Jack" target="_blank">
-                        <i class ='bx bx-link-external'></i></a>
-                </div>
-
-            </div>
-
-           
-
 
         </div>
     </section>
 
-
-
-    <!-- contact section -->
-
+    <!-- CONTACT -->
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me </span></h2>
-        <form action="https://formsubmit.co/34b0edc07d4c9e24a4ba36280789cf1e" method="POST">
-            <div class="input-box">
-                <input type="text"name="Name" id="name" placeholder="Full Name " required>
-                <input type="email" name="Email" id="Email" placeholder="Email Address "required>
-            </div>
+        <h2 class="heading">Contact <span>Me</span></h2>
 
-            <div class="input-box">
-                <input type="number" name="Mobile number" id="number" placeholder="Mobile number "required>
-                <input type="text" name="Email Subject" id="subject" placeholder="Email Subject "required>
-            </div>
-
-            <textarea  cols="30" rows="10"id="Your message" name="Your message" placeholder="Your message" required></textarea>
-            <!-- <input type="submit" value="Send message" class="btn"> -->
-            <button type="submit">Sent message</button>
-        </form>
+        <p>Email: jagtapprathmesh43@gmail.com</p>
+        <p>Location: Pune, Maharashtra</p>
     </section>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
-
-    <!-- <script>
-        function sendEmail(){
-            Email.sent({
-                Host:"smtp.gmail.com",
-                Username:"teamunitcoder@gmail.com",
-                Passward:"Unit@121",
-                To:"jagtapprathmesh43@gmail.com",
-                From:document.getElementById("Email").value,
-                subject:"for contact purpose",
-                Body:"Name : "+document.getElementById("Full Name").value
-                     +"<br> Email: "+document.getElementById("Email Address").value
-                     +"<br> Phone no: "+document.getElementById("Mobile number").value
-                     +"<br> Subject: "+document.getElementById("Email Subject").value
-                     +"<br> Message: "+document.getElementById("Your message").value
-            }).then(
-                message =>alert("your message is sent successfully")
-
-            );
-        }
-    </script>
- -->
-
-
 
     <script src="script.js"></script>
 
+    <script>
+        ScrollReveal({
+            distance: '60px',
+            duration: 1800,
+            delay: 200,
+            reset: false
+        });
 
+        ScrollReveal().reveal('.home-content', { origin: 'left' });
+        ScrollReveal().reveal('.about-content', { origin: 'right' });
+        ScrollReveal().reveal('.experience-timeline', { origin: 'bottom' });
+        ScrollReveal().reveal('.skills-container', { origin: 'bottom' });
+        ScrollReveal().reveal('.cert-box', { origin: 'bottom' });
+        ScrollReveal().reveal('.projects-box', { interval: 200 });
+    </script>
 
-
-    
 </body>
 </html>
